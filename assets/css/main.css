@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #9e00ff;
+  --secondary-color: #11ffd4;
+  --background-color: #212121;
+  --footer-background-color: darken(#212121, 20);
+  --text-color: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +17,8 @@ html {
   width: 100%;
   height: 100vh;
   font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 header {
@@ -19,11 +29,11 @@ header {
 
 .home {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 62px);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .home_wrapper {
   width: 100%;
@@ -31,9 +41,82 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
 }
-.home_image {
+.home_image, .home_image img {
   width: 100%;
+  max-width: 400px;
+}
+.home .c-headings {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.about_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+.about .c-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .c-info_text {
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+}
+.about .c-info_title {
+  font-size: 16px;
+  background: linear-gradient(255.24deg, #9e00ff 12.35%, #11ffd4 64.55%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about .c-info_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .c-info_image, .about .c-info_image img {
+  width: 90%;
+  max-width: 190px;
+}
+
+.c-titles {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.c-titles .c-headings_title {
+  font-size: 3rem;
+  background: linear-gradient(255.24deg, #9e00ff 12.35%, #11ffd4 64.55%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.c-titles .c-headings_subtitle {
+  background: linear-gradient(255.24deg, #9e00ff 12.35%, #11ffd4 64.55%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*# sourceMappingURL=main.css.map */

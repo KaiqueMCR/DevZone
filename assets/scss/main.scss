@@ -1,9 +1,18 @@
+// utilities files
+
+@import "utilities/variables";
+@import "utilities/mixins";
+
 // base files
 
-@import "base/mixins";
 @import "base/reset";
 
 // layout files
 
 @import "layout/header";
 @import "layout/home";
+@import "layout/about";
+
+// components
+
+@import "components/c-titles";

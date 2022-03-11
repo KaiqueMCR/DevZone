@@ -1,0 +1,13 @@
+.c-titles {
+  @include flex;
+  flex-direction: column;
+
+  .c-headings_title {
+    font-size: 3rem;
+    @include text-gradient;
+  }
+
+  .c-headings_subtitle {
+    @include text-gradient;
+  }
+}

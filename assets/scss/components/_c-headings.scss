@@ -1,0 +1,6 @@
+.c-headings {
+  width: 100%;
+  @include flex;
+  flex-direction: column;
+  gap: 2rem;
+}

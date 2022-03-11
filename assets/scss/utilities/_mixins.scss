@@ -1,0 +1,11 @@
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin text-gradient {
+  background: linear-gradient(255.24deg, #9e00ff 12.35%, #11ffd4 64.55%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

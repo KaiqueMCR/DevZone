@@ -1,18 +1,24 @@
 .home {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 62px);
   @include flex;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.5rem;
 
   &_wrapper {
     width: 100%;
     height: 100%;
     @include flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
   }
 
-  &_image {
+  &_image,
+  &_image img {
     width: 100%;
+    max-width: 400px;
   }
+
+  @import "../components/c-headings";
 }
