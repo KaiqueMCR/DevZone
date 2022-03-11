@@ -122,6 +122,16 @@ header {
     flex-direction: row;
   }
 }
+.contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 1rem;
+}
+
 .c-titles {
   display: flex;
   align-items: center;
@@ -236,6 +246,40 @@ header {
 }
 .c-btns_solid:hover a {
   color: #fff;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+form .c-contact_field {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0.5rem;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(3.4px);
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  width: 100%;
+}
+form .c-contact_input,
+form .c-contact_message {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: var(--text-color);
 }
 
 /*# sourceMappingURL=main.css.map */
