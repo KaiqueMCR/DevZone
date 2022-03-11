@@ -1,0 +1,28 @@
+.work {
+  width: 100%;
+  height: 100vh;
+  @include flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+
+  &_wrapper {
+    width: 100%;
+    @include flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .c-work_description {
+    text-align: center;
+    max-width: 500px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .work {
+    &_wrapper {
+      flex-direction: row;
+    }
+  }
+}

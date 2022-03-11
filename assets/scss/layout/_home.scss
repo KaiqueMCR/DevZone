@@ -3,7 +3,7 @@
   height: calc(100vh - 62px);
   @include flex;
   justify-content: center;
-  padding: 0.5rem;
+  padding: 1rem;
 
   &_wrapper {
     width: 100%;
@@ -17,8 +17,28 @@
   &_image,
   &_image img {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
   }
 
   @import "../components/c-headings";
+}
+
+@media screen and (min-width: 1000px), (orientation: landscape) {
+  .home {
+    &_wrapper {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    .c-headings {
+      font-size: 1.2rem;
+      width: initial;
+    }
+
+    &_image,
+    &_image img {
+      width: initial;
+      max-width: 400px;
+    }
+  }
 }

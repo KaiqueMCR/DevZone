@@ -11,3 +11,33 @@
     @include text-gradient;
   }
 }
+
+@media screen and (min-width: 400px) {
+  .c-titles {
+    @include flex;
+    flex-direction: column;
+
+    .c-headings_title {
+      font-size: 4rem;
+    }
+
+    .c-headings_subtitle {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .c-titles {
+    @include flex;
+    flex-direction: column;
+
+    .c-headings_title {
+      font-size: 5rem;
+    }
+
+    .c-headings_subtitle {
+      font-size: 3rem;
+    }
+  }
+}
