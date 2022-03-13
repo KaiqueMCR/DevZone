@@ -1,0 +1,65 @@
+.navbar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  @include flex;
+  gap: 2rem;
+  z-index: 999;
+  transition: all 0.2s ease-in-out;
+
+  .menu_item {
+    color: #737380;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .menu_item::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(255.24deg, #11ffd4, #9e00ff);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .menu_item:hover {
+    color: var(--text-color);
+  }
+
+  .menu_item:hover::after {
+    width: 100%;
+  }
+}
+
+.navbar.active {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 650px) {
+  .navbar {
+    .menu_item[href="/login"] {
+      display: none;
+    }
+  }
+
+  header .c-btns_transparent {
+    display: none;
+  }
+
+  .navbar {
+    top: 62px;
+    background-color: var(--footer-background-color);
+    width: 100vw;
+    height: calc(100vh - 62px);
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 100vw;
+    padding: 3rem 1rem;
+
+    .menu_item:hover::after {
+      display: none;
+    }
+  }
+}

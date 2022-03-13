@@ -38,7 +38,30 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
-    <header></header>
+    <header id="top">
+      <div class="logo">
+        <img src="/assets/images/logo.png" alt="DevZone logo" />
+      </div>
+
+      <div class="mobile-menu">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+      </div>
+
+      <nav class="navbar">
+        <a class="menu_item" href="#top">Home</a>
+        <a class="menu_item" href="#about">About</a>
+        <a class="menu_item" href="#work">Work</a>
+        <a class="menu_item" href="#contact">Contact</a>
+        <a class="menu_item" href="/login">login</a>
+      </nav>
+
+      <div class="c-btns_transparent">
+        <button>
+          <a href="/"><span>Login</span></a>
+        </button>
+      </div>
+    </header>
 
     <main>
       <section class="home">
@@ -68,7 +91,7 @@
         </div>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="c-subtitle">
           <h2 class="c-about_title">
             Complete software development outsourcing!
@@ -127,7 +150,7 @@
         </div>
       </section>
 
-      <section class="work">
+      <section class="work" id="work">
         <div class="c-subtitle">
           <h2 class="c-about_title">So... how exactly DevZone work?</h2>
         </div>
@@ -178,7 +201,7 @@
         </div>
       </section>
 
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="c-subtitle">
           <h2 class="c-about_title">Contact us</h2>
         </div>
@@ -220,13 +243,66 @@
 
         <div class="c-btns_transparent">
           <button type="submit" form="contact">
-            Send
-            <i class="fa-solid fa-paper-plane"></i>
+            <span
+              >Send
+              <i class="fa-solid fa-paper-plane"></i>
+            </span>
           </button>
         </div>
       </section>
+
+      <div class="blur">
+        <div class="blur_circle secondary circle1"></div>
+        <div class="blur_circle primary circle2"></div>
+        <div class="blur_circle secondary circle3"></div>
+        <div class="blur_circle primary circle4"></div>
+        <div class="blur_circle secondary circle5"></div>
+      </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="toTop">
+        <img
+          src="./assets/images/logo.png"
+          alt="DevZone logo"
+          class="footer_logo"
+        />
+
+        <div class="c-btns_solid-square">
+          <a href="#top">
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="links">
+        <div class="c-links_col">
+          <a href="">About</a>
+          <a href="">Team</a>
+          <a href="">Contact</a>
+        </div>
+
+        <div class="c-links_col">
+          <a href="">Services</a>
+          <a href="">Terms</a>
+          <a href="">Politics</a>
+        </div>
+
+        <div class="c-links_col">
+          <a href="">FAQs</a>
+          <a href="">Help</a>
+        </div>
+      </div>
+
+      <div class="author">
+        <p>
+          Developed by
+          <a href="https://github.com/KaiqueMCR" target="_blank">KaiqueMCR</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/js/mobile-menu.js"></script>
   </body>
 </html>

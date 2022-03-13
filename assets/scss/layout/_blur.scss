@@ -1,0 +1,44 @@
+.blur {
+  .blur_circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: blur(150px);
+    position: absolute;
+    z-index: -1;
+  }
+
+  .primary {
+    background-color: var(--primary-color);
+  }
+
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+
+  .circle1 {
+    top: 0;
+    right: 0;
+  }
+
+  .circle2 {
+    top: 100vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .circle3 {
+    top: 200vh;
+    left: 0;
+  }
+
+  .circle4 {
+    top: 300vh;
+    right: 0;
+  }
+
+  .circle5 {
+    bottom: 0;
+    left: 0;
+  }
+}

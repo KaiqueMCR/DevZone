@@ -14,9 +14,13 @@
 @import "layout/about";
 @import "layout/work";
 @import "layout/contact";
+@import "layout/footer";
+@import "layout/blur";
 
 // components
 
+@import "components/c-mobile-menu";
+@import "components/c-navbar";
 @import "components/c-titles";
 @import "components/c-info";
 @import "components/c-btn";

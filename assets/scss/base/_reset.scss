@@ -4,11 +4,43 @@
   box-sizing: border-box;
 }
 
-body,
 html {
-  width: 100%;
-  height: 100vh;
   font-family: "Poppins", sans-serif;
   color: var(--text-color);
+  scroll-behavior: smooth;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
   background-color: var(--background-color);
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+}
+
+main {
+  @include flex;
+  flex-direction: column;
+  gap: 62px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: darken($color: #949494, $amount: 20);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
