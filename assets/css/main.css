@@ -484,6 +484,9 @@ footer .author a {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.c-btns_transparent a {
+  text-decoration: none;
+}
 .c-btns_solid-square {
   color: #000;
   background: linear-gradient(255.24deg, #9e00ff 12.35%, #11ffd4 64.55%);

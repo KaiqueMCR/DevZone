@@ -45,6 +45,10 @@
     -webkit-text-fill-color: transparent;
   }
 
+  &_transparent a {
+    text-decoration: none;
+  }
+
   &_solid-square {
     color: #000;
     background: linear-gradient(255.24deg, #9e00ff 12.35%, #11ffd4 64.55%);
