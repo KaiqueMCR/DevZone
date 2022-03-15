@@ -12,5 +12,5 @@ ScrollReveal().reveal('.c-contact_field', { scale: 0, delay: 100 })
 ScrollReveal().reveal('.c-btns_transparent', { scale: 0, delay: 200 })
 
 ScrollReveal().reveal('.toTop', { scale: 0 })
-ScrollReveal().reveal('.links', { scale: 0, delay: 100 })
-ScrollReveal().reveal('.author', { scale: 0, delay: 100 })
+ScrollReveal().reveal('.links', { scale: 0 })
+ScrollReveal().reveal('.author', { scale: 0 })
