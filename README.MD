@@ -3,9 +3,7 @@
 </h3>
 
 <div align="center">
-
   <h1>DevZone - We Got it</h1>
-
 </div>
 
 ## DevZone
