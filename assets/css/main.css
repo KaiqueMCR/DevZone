@@ -328,11 +328,12 @@ footer .author a {
   margin-left: 0;
 }
 
-@media screen and (max-width: 650px) {
-  .navbar .menu_item[href="/login"] {
+@media screen and (min-width: 650px) {
+  .navbar .menu_item[href="./login.html"] {
     display: none;
   }
-
+}
+@media screen and (max-width: 650px) {
   header .c-btns_transparent {
     display: none;
   }
