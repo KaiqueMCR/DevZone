@@ -177,11 +177,11 @@ form input[type='submit']:hover {
   background: linear-gradient(to left, #1b60e0, #2a5298);
 }
 
-.footer .social-field.twitter:hover {
+.footer .conect.google:hover {
   background: linear-gradient(to left, #ff5d5d, #ff4343);
 }
 
-.footer .social-field.facebook:hover {
+.footer .conect.facebook:hover {
   background: linear-gradient(to left, #0852db, #144497);
 }
 
