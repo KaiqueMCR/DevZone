@@ -191,6 +191,7 @@ form input[type='submit']:hover {
   border-radius: 50%;
   filter: blur(150px);
   position: absolute;
+  z-index: -1;
 }
 
 .primary {
@@ -209,4 +210,10 @@ form input[type='submit']:hover {
 .circle2 {
   bottom: 0;
   left: 0;
+}
+
+@media screen and (min-width:  320px){
+  main.container {
+    width: 90%;
+  }
 }
