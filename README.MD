@@ -21,9 +21,7 @@ DevZone is a home page of a plataform of a Development team services. This proje
 
 ## Screenshot
 
-<h3 align="center">
-  <img src="./assets/.github/screenshot.jpg">
-</h3>
+![screenshot](./assets/.github/screenshot.jpg)
 
 ## Stack
 
