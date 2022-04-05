@@ -107,7 +107,7 @@ form .input-field:first-child {
 
 .input-field input {
   outline: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .input-field input::placeholder {
@@ -120,7 +120,7 @@ form input[type='submit'] {
   background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
   cursor: pointer;
   color: white;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   border-radius: 4px;
   transition: all 0.3s ease;
@@ -183,6 +183,15 @@ form input[type='submit']:hover {
 
 .footer .conect.facebook:hover {
   background: linear-gradient(to left, #0852db, #144497);
+}
+
+.footer .signUp {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: .5rem;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 0.9rem;
 }
 
 .blur_circle {
