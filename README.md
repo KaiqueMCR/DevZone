@@ -4,7 +4,7 @@
 
 <div align="center">
   <img src="./assets/images/logo.png">
-  <h2>DevZoze - We got it!</h2>
+  <h2>DevZone - We got it!</h2>
 </div>
 
 <br>
