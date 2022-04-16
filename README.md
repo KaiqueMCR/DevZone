@@ -1,10 +1,13 @@
-<div align="center">
-  <img src="./assets/images/logo.png">
-</div>
+## DevZone webpage
+
+<br>
 
 <div align="center">
-  <h1>DevZone - We Got it</h1>
+  <img src="./assets/images/logo.png">
+  <h1>DevZoze - We got it!</h1>
 </div>
+
+<br>
 
 <div align="center">
 
