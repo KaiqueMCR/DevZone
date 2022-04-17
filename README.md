@@ -24,9 +24,11 @@ DevZone is a home page of a plataform of a Development team services. This proje
 
 ## Screenshot
 
-![screenshot](./assets/.github/screenshot.jpg)
+[<img src="./assets/.github/screenshot.jpg" />](https://kaiquemcr.github.io/DevZone/)
 
-## Stack
+<p align="center">Click on the image above to see in production 👆</p>
+
+## 👾 Technologies
 
 - Semantic HTML
 - CSS (Sass)
