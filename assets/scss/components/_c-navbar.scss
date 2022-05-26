@@ -14,7 +14,7 @@
   }
 
   .menu_item::after {
-    content: "";
+    content: '';
     position: absolute;
     background: linear-gradient(255.24deg, #11ffd4, #9e00ff);
     height: 3px;
@@ -39,7 +39,7 @@
 
 @media screen and (min-width: 650px) {
   .navbar {
-    .menu_item[href="./login.html"] {
+    .menu_item[href='./login.html'] {
       display: none;
     }
   }
