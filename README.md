@@ -20,7 +20,7 @@
 
 </div>
 
-DevZone is a home page of a plataform of a Development team services. This project was made focused on improve coding and design skills, first of all i designed on figma then coded it self. Also, the project was also made to be a lib consumption training for me (scrollreveal in that case).
+🚀 DevZone is a home page of a plataform of a Development team services. This project was made focused on improve coding and design skills, first of all i designed on figma then coded it self. Also, the project was also made to be a lib consumption training for me (scrollreveal in that case).
 
 ## Screenshot
 
