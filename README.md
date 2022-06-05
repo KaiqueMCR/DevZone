@@ -28,8 +28,25 @@
 
 <p align="center">Click on the image above to see in production 👆</p>
 
+## 🔖 Layout
+
+You can view the project layout through [this link](https://www.figma.com/file/A00KGfw3ScXeapKGUzJEui/DevZone?node-id=0%3A1). 
+You need an account on [Figma](https://figma.com) to access it.
+
 ## 👾 Technologies
 
 - Semantic HTML
 - CSS (Sass)
 - Javascript
+
+## 💪 Contributing
+
+1. Fork the repo on GitHub
+2. Clone the project to your own machine
+3. Commit changes to your own branch
+4. Push your work back up to your fork
+5. Submit a Pull request so that we can review your changes
+
+## 📄 License
+
+[MIT](https://choosealicense.com/licenses/mit/)
